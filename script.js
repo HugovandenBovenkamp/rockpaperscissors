@@ -1,11 +1,17 @@
-function computerplay(random) {
-    const hand = ["Rock", "Paper", "Scissors"];
-    const randomHand = hand[Math.floor(Math.random() * hand.length)];
-    console.log("=>" , randomHand);
+function computerPlay() {
+    let random = Math.floor(math.random() * 3);
+    if (random == 0) {
+        return "Rock";
+    } else if (random == 1) {
+        return "Paper";
+    } else {
+        return "Scissors";
+    }
 }
 
-computerplay();
+computerPlay();
 
 function playRound(playerSelection, computerSelection) {
-    
+   //if else statements here to start round.
 }
+
