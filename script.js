@@ -67,12 +67,12 @@ function checkWin() {
 
 
 function checkResult() {
-    if (playerWins > 5) {
+    if (playerWins == 5) {
         console.log("You've won the game! Computer lost!");
         computerWins = 0;
         playerWins = 0;
     }
-    else if (computerWins > 5) {
+    else if (computerWins == 5) {
         console.log("You've lost the game! Computer wins!");
         playerWins = 0;
         computerWins = 0;
