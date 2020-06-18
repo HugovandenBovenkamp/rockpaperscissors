@@ -6,18 +6,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="gameTitle">
-        <h1>Rock Paper Scissors!</h1>
-        <button id="Rock">Rock</button>
-        <button id="Paper">Paper</button>
-        <button id="Scissors">Scissors</button>
-        <h2>Open your console (f12, and click console) to see the game results!</h2>
-    </div>
-    <div class="scoreboard">
-        <h2>Playerwins : <span id="playerScore">0</span></h2>
-        <h2>Computerwins : <span id="computerScore">0</span></h2>
-    </div>
-  
+    <main class="gameContainer">
+        <div class="siteTitle">
+            <h1>Rock Paper Scissors!</h1>
+        </div>
+        <div class="buttonContainer">
+            <button id="Rock">Rock</button>
+            <button id="Paper">Paper</button>
+            <button id="Scissors">Scissors</button>
+        </div>  
+        </div>
+        <div class="scoreBoard">
+            <h2>Open your console (f12, and click the console) to see the game results!</h2>
+            <h2 class="playerScore">You : <span id="playerScore">0</span></h2>
+            <h2 class="computerScore">Computer : <span id="computerScore">0</span></h2>
+        </div>
+    </main>  
+
+
     <script src="script.js"></script>
 </body>
 </html>
